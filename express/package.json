@@ -13,6 +13,8 @@
     "test": "cd ../..; npm run t -- appengine/express/test/*.test.js"
   },
   "dependencies": {
+    "angular": "^1.6.4",
+    "angular-timer": "^1.3.5",
     "body-parser": "1.16.0",
     "cookie-parser": "1.4.3",
     "debug": "2.6.0",

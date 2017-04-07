@@ -3,3 +3,18 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+
+  h1 Countdown Clock
+  div(id="clockdiv")
+    div
+      span(class="days")
+        div(class="smalltext") Days
+    div
+      span(class="hours")
+        div(class="smalltext") Hours
+    div
+      span(class="minutes")
+        div(class="smalltext") Minutes
+    div
+      span(class="seconds")
+        div(class="smalltext") Seconds

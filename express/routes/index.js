@@ -18,12 +18,16 @@
 const express = require('express');
 const router = express.Router();
 
-// [START hello_world]
-router.get('/', (req, res) => {
-  res.render('index', {
-    title: 'Hello World! Express.js on Google App Engine.'
-  });
+router.get('*', (req, res) => {
+  res.sendfile('./public/index.html');
 });
+
+// [START hello_world]
+// router.get('/', (req, res) => {
+//   res.render('index', {
+//     title: 'Hello World! Express.js on Google App Engine.'
+//   });
+// });
 // [END hello_world]
 
 module.exports = router;

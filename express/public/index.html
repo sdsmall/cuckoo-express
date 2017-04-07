@@ -1,0 +1,61 @@
+<!-- index.html -->
+<!doctype html>
+
+<!-- ASSIGN OUR ANGULAR MODULE -->
+<html ng-app="cuckooApp">
+<head>
+  <!-- META -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Optimize mobile viewport -->
+
+  <title>Cuckoo Countdown</title>
+
+  <!--<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script> load angular -->
+  <script src="./javascripts/angular.min.js"></script>
+  <script src="core.js"></script>
+
+  <link rel= "stylesheet" href= "stylesheets/style.css">
+
+</head>
+<body ng-controller="mainController">
+
+  <!-- <div layout="row" layout-align="center center">
+    <span style="padding: 5px; background-color:gray; margin: 5px;">
+      {{days}}
+    </span>
+    <span style="padding: 5px; background-color:gray; margin: 5px;">
+      {{hours}}
+    </span>
+    <span style="padding: 5px; background-color:gray; margin: 5px;">
+      {{minutes}}
+    </span>
+    <span style="padding: 5px; background-color:gray; margin: 5px;">
+      {{seconds}}
+    </span>
+  </div> -->
+  <img src="output_qCYtGZ.gif" />
+  <br />
+  <countdown-clock>
+  </countdown-clock>
+
+  <!-- <div id="clockdiv">
+    <div>
+      <span class="days">{{days}}</span>
+      <div class="smalltext">Days</div>
+    </div>
+    <div>
+      <span class="hours">{{hours}}</span>
+      <div class="smalltext">Hours</div>
+    </div>
+    <div>
+      <span class="minutes">{{minutes}}</span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+      <span class="seconds">{{seconds}}</span>
+      <div class="smalltext">Seconds</div>
+    </div>
+  </div> -->
+
+</body>
+</html>
